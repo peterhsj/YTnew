@@ -410,3 +410,20 @@ img {
   right: 32%;
   bottom: 30%;
 }
+.pic #hotspot6 {
+  left: 28%;
+  top: 15%;
+}
+
+.pic #hotspot7 {
+  left: 25%;
+  bottom: 38%;
+}
+
+.pic #hotspot8 {
+  right: 12%;
+  bottom: 21%;
+}
+.clearfix {
+  clear: both;
+}
