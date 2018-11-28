@@ -411,19 +411,38 @@ img {
   bottom: 30%;
 }
 .pic #hotspot6 {
-  left: 28%;
-  top: 15%;
+  left: 13%;
+  top: 23%;
 }
 
 .pic #hotspot7 {
-  left: 25%;
-  bottom: 38%;
+  left: 60%;
+  bottom: 49%;
 }
 
 .pic #hotspot8 {
-  right: 12%;
-  bottom: 21%;
+  right: 27%;
+  bottom: 28%;
+}
+
+.pic #hotspot9 {
+  right: 84%;
+  bottom: 78%;
+}
+
+.pic #hotspot10 {
+  right: 60%;
+  bottom: 46%;
+}
+
+.pic #hotspot11 {
+  right: 14%;
+  bottom: 35%;
 }
 .clearfix {
   clear: both;
+}
+
+h3.popover-title {
+  font-size: 16px !important;
 }
