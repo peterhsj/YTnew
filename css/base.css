@@ -341,6 +341,7 @@ img {
 .pro-spec ul.specNote {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 20px 0;
 }
@@ -350,8 +351,11 @@ img {
   border-radius: 6px;
   color: #FFFFFF;
   font-size: 13px;
+  height: 72px;
+  margin: 10px 5px;
   padding: 10px 10px;
   text-align: center;
+  width: 72px;
 }
 .pro-spec ul.specNote li i{
   color: #FFFFFF;
