@@ -166,7 +166,7 @@ img {
 /* spacing */
 .section-space,
 .space-lg {
-  padding: 70px 0; }
+  padding: 70px 0 20px; }
 
 .space-sm {
   padding: 30px 0; }
@@ -281,10 +281,10 @@ img {
 }
 
 .owl-carousel .thumb {
-  margin-top: 0px;
+  background-color: #FFFFFF;
+  margin-top: 20px;
   border: 1px solid #ddd;
   padding: 4px;
-  /*background-color: #ddd;*/
 }
 .owl-carousel .owl-item img {
     display: block;
@@ -320,12 +320,30 @@ img {
 
 .pro-spec h3 {
   color: #0068b7;
-  font-size: 20px;
+  font-size: 38px;
   font-weight: 700;
 }
 
+.pro-spec h4 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.special {
+  background-color: cadetblue;
+  padding: 20px 0 30px;
+}
+.pro-spec p.subtxt {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
 .pro-spec ul.specIntro li {
-  color: #333333;
+  color: #FFFFFF;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
@@ -335,15 +353,17 @@ img {
   text-indent: -21px;
 }
 .pro-spec ul.specIntro li .specIntroTitle {
-  color: #000000;
-  font-weight: 600;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 500;
 }
 .pro-spec ul.specNote {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 20px 0;
+  margin: 20px auto;
+  max-width: 505px;
 }
 
 .pro-spec ul.specNote li {
@@ -365,12 +385,12 @@ img {
 }
 
 .pic {
-  margin-top: 15px;
+  height: auto;
+  max-width: 505px;
+  margin: 15px auto 0 auto;
   position: relative;
 }
-.pic img {
-  width: 100%;
-}
+
 .pic .pic_hotspot {
   position: absolute;
   background: #7dbd22;
