@@ -45,13 +45,16 @@ p {
 
 /* links */
 a {
-  text-decoration: none;
+  display: inline-block;
   color: #7dbd22;
+  margin-bottom: 10px;
+  text-decoration: none;
   -webkit-transition: color .3s;
   -moz-transition: color .3s;
   -ms-transition: color .3s;
   -o-transition: color .3s;
-  transition: color .3s; }
+  transition: color .3s;
+  }
   a:hover {
     text-decoration: underline;
     color: #7dbd22; }
@@ -469,4 +472,20 @@ img {
 
 h3.popover-title {
   font-size: 16px !important;
+}
+
+.sale {
+  border-radius: 30px !important;
+  border: 2px solid #4cae4c !important;
+  color: #4cae4c !important;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px auto;
+  padding: 10px 30px !important;
+}
+.sale:hover {
+  background-color: #4cae4c;
+  border: 2px solid #4cae4c !important;
+  color: #FFFFFF !important;
+  font-weight: 400;
 }
