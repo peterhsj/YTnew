@@ -32,9 +32,14 @@
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/components.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="css/pages.css">    
     <link rel="stylesheet" href="css/base.css">
     <!-- <link href="css/animate3.1.1.min.css" rel="stylesheet"> -->
+=======
+    <link rel="stylesheet" href="css/pages.css">
+    <link href="css/animate3.1.1.min.css" rel="stylesheet">
+>>>>>>> Revert "更新"
 
     <!-- GOOGLE WEB FONT -->
     <!-- link href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic" rel="stylesheet" type="text/css" -->
@@ -590,9 +595,9 @@
         };
 
         $(document).ready(function () {
-            // function modalAnim(x) {
-            //     $('.modal .modal-dialog').attr('class', 'modal-dialog ' + x + ' animated');
-            // };
+            function modalAnim(x) {
+                $('.modal .modal-dialog').attr('class', 'modal-dialog ' + x + ' animated');
+            };
 
             $('#introImg').on('show.bs.modal', function (event) {
                 var button = $(event.relatedTarget);
@@ -604,11 +609,11 @@
                 modal.find('.modal-title').text(recipient);
                 modal.find('.modal-body img').attr('src', recUrl);
                 modal.find('.modal-body p').text(intro);
-                // modalAnim('zoomIn');
+                modalAnim('zoomIn');
             })
-            // $('#introImg').on('hide.bs.modal', function (event) {
-            //     modalAnim('zoomOut');
-            // })
+            $('#introImg').on('hide.bs.modal', function (event) {
+                modalAnim('zoomOut');
+            })
 
             $('#carouselImg').on('show.bs.modal', function (event) {
                 var button = $(event.relatedTarget);
