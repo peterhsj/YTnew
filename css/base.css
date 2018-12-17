@@ -490,6 +490,7 @@ h3.popover-title {
 }
 
 .intro {
+  background-color: #FFFFFF;
   border-radius: 30px !important;
   border: 2px solid #ff6600 !important;
   color: #ff6600 !important;
