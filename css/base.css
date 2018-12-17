@@ -489,6 +489,22 @@ h3.popover-title {
   font-size: 16px !important;
 }
 
+.intro {
+  border-radius: 30px !important;
+  border: 2px solid #ff6600 !important;
+  color: #ff6600 !important;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px auto;
+  padding: 10px 30px !important;
+}
+.intro:hover {
+  background-color: #ff6600;
+  border: 2px solid #ff6600 !important;
+  color: #FFFFFF !important;
+  font-weight: 400;
+}
+
 .sale {
   border-radius: 30px !important;
   border: 2px solid #4cae4c !important;
