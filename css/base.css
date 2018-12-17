@@ -498,8 +498,16 @@ h3.popover-title {
   font-weight: 600;
   margin: 20px auto;
   padding: 10px 30px !important;
+  text-decoration: none;
 }
 .intro:hover {
+  background-color: #ff6600;
+  border: 2px solid #ff6600 !important;
+  color: #FFFFFF !important;
+  font-weight: 400;
+  text-decoration: none;
+}
+.intro:focus {
   background-color: #ff6600;
   border: 2px solid #ff6600 !important;
   color: #FFFFFF !important;
