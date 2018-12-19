@@ -30,6 +30,7 @@ blockquote {
 /* main colors */
 h1, h2, h3, h4, h5, h6 {
   color: #484747;
+  font-weight: 500;
 }
 h3 {
   color: #ff6600;
@@ -47,7 +48,7 @@ p {
 a {
   display: inline-block;
   color: #7dbd22;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   text-decoration: none;
   -webkit-transition: color .3s;
   -moz-transition: color .3s;
@@ -131,7 +132,8 @@ ul {
 
 ol li {
   padding: 4px 8px 4px 0;
-  margin-bottom: 10px; }
+  /* margin-bottom: 10px; */
+ }
 
 ol.list-roman {
   list-style-type: lower-roman; }
