@@ -3948,7 +3948,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
   color: #444; }
 
 .breadcrumb {
-  padding: 8px 15px;
+  padding: 0 15px;
   margin-bottom: 20px;
   list-style: none;
   /*background-color: #f5f5f5;*/
