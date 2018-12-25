@@ -406,15 +406,16 @@ img {
   border-radius: 6px;
   color: #FFFFFF;
   font-size: 13px;
-  height: 72px;
+  height: 90px;
   margin: 10px 5px;
   padding: 10px 10px;
   text-align: center;
-  width: 72px;
+  width: 90px;
 }
 .pro-spec ul.specNote li i{
   color: #FFFFFF;
-  font-size: 25px;
+  font-size: 28px;
+  font-weight: 400;
   padding-bottom: 10px;
   text-align: center;
 }
