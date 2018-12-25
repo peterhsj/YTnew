@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h3 {
   color: #ff6600;
+  margin-bottom: 15px;
 }
 h4.title {
   color: #337ad5;
@@ -296,10 +297,11 @@ img {
   padding: 4px;
 }
 .owl-carousel .owl-item img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    /* margin: auto; */
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 100%;
 }
 .owl-carousel .img-thumbnail {
     padding: 0px;
@@ -350,6 +352,19 @@ img {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+.pro-spec h5 {
+  text-align: center;
+  color: #0068b7;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.pro-spec .note {
+  color: #333333;
 }
 
 .special {
@@ -531,4 +546,13 @@ h3.popover-title {
   border: 2px solid #4cae4c !important;
   color: #FFFFFF !important;
   font-weight: 400;
+}
+
+.blue {
+  color: #337ab7;
+}
+
+.owl-carousel.owl-loaded {
+  padding-left: 15px;
+  padding-right: 15px;
 }
