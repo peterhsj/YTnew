@@ -354,8 +354,13 @@ img {
   margin-bottom: 20px;
 }
 
+.pro-spec h4.warm {
+  color: #8a6d3b;
+  font-size: 24px;
+}
+
 .pro-spec h5 {
-  text-align: center;
+  /* text-align: center; */
   color: #0068b7;
   font-size: 24px;
   font-weight: 700;
@@ -367,6 +372,23 @@ img {
   color: #333333;
 }
 
+.pro-spec ul.qa {
+  font-size: 15px;
+  list-style-position: inherit;
+  list-style-type: disc;
+  margin-left: 15px;
+  padding-left: 8px;
+}
+
+.pro-spec ul.qa li {
+  line-height: 24px;
+  margin: 0 0 10px;
+}
+.pro-spec ul.qa li .title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
 .special {
   background-color: cadetblue;
   padding: 20px 0 30px;
@@ -375,6 +397,10 @@ img {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 30px;
+}
+
+.pro-spec ul.qa ul {
+  list-style-type: circle;
 }
 
 .pro-spec ul.specIntro li {
@@ -470,19 +496,25 @@ img {
   right: 32%;
   bottom: 30%;
 }
+
 .pic #hotspot6 {
   left: 13%;
-  top: 23%;
+  top: 2%;
+}
+
+.pic #hotspot6a {
+  left: 22%;
+  top: 27%;
 }
 
 .pic #hotspot7 {
-  left: 60%;
-  bottom: 49%;
+  left: 85%;
+  bottom: 50%;
 }
 
 .pic #hotspot8 {
-  right: 27%;
-  bottom: 28%;
+  right: 26%;
+  bottom: 24%;
 }
 
 .pic #hotspot9 {
@@ -491,13 +523,22 @@ img {
 }
 
 .pic #hotspot10 {
-  right: 60%;
-  bottom: 46%;
+  right: 70%;
+  bottom: 56%;
 }
-
 .pic #hotspot11 {
   right: 14%;
   bottom: 35%;
+}
+
+.pic #hotspot12 {
+  left: 32%;
+  bottom: 36%;
+}
+
+.pic #hotspot13 {
+  right: 2%;
+  bottom: 18%;
 }
 .clearfix {
   clear: both;
@@ -507,6 +548,10 @@ h3.popover-title {
   font-size: 16px !important;
 }
 
+#introText h5:first-child {
+  margin-top: 20px;
+}
+
 .intro {
   background-color: #FFFFFF;
   border-radius: 30px !important;
@@ -514,7 +559,7 @@ h3.popover-title {
   color: #ff6600 !important;
   font-size: 20px;
   font-weight: 600;
-  margin: 20px auto;
+  margin: 10px auto;
   padding: 10px 30px !important;
   text-decoration: none;
 }
