@@ -621,6 +621,7 @@ span.step {
   border: 3px solid #FFFFFF;
 }
 .step-text {
+  color: #0068b7;
   padding-top: 10px;
-  color: #0068b7
+  text-align: left;
 }
