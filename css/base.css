@@ -548,6 +548,10 @@ h3.popover-title {
   font-size: 16px !important;
 }
 
+#introText {
+  padding-top: 10px;
+}
+
 #introText h5:first-child {
   margin-top: 20px;
 }
@@ -559,8 +563,8 @@ h3.popover-title {
   color: #ff6600 !important;
   font-size: 20px;
   font-weight: 600;
-  margin: 10px auto;
-  padding: 10px 30px !important;
+  margin: 10px auto 10px;
+  padding: 10px 30px 10px !important;
   text-decoration: none;
 }
 .intro:hover {
@@ -601,4 +605,22 @@ h3.popover-title {
 .owl-carousel.owl-loaded {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+span.step {
+  background-color: #FFFFFF;
+  display: block;
+  font-size: 30px;
+  height: 35px;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  width: 35px;
+}
+.bdl {
+  border: 3px solid #FFFFFF;
+}
+.step-text {
+  padding-top: 10px;
+  color: #0068b7
 }
