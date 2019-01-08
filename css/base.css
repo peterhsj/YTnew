@@ -413,6 +413,7 @@ img {
   line-height: 1.5;
   /* list-style-type: disc; */
   margin-bottom: 10px;
+  margin-left: 20px;
   /* margin-left: 0;
   text-indent: -1.5em; */
 }
@@ -423,12 +424,14 @@ img {
   border-radius: 0;
   font-size: 12px;
   /* color: #f19149; */
-  display: inline-block;
+  display: block;
   width: 20px;
   text-align: center;
   height: 20px;
   line-height: 20px;
-  vertical-align: text-bottom;
+  float: left;
+  margin-left: -20px;
+  padding-top: 2px;
 }
 /* @media screen and (max-width:768px) {
   .pro-spec ul.specIntro li {
