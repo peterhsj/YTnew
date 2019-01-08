@@ -411,7 +411,7 @@ img {
   list-style-type: disc;
   margin-bottom: 10px;
   margin-left: 27px;
-  text-indent: -21px;
+  text-indent: -1.5em;
 }
 .pro-spec ul.specIntro li .specIntroTitle {
   color: #FFFFFF;
