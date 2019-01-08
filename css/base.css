@@ -408,7 +408,7 @@ img {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
-  list-style-type: disc;
+  /* list-style-type: disc; */
   margin-bottom: 10px;
   /* margin-left: 0;
   text-indent: -1.5em; */
