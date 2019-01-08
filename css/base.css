@@ -59,11 +59,13 @@ a {
   }
   a:hover {
     text-decoration: underline;
-    color: #7dbd22; }
+    color: #7dbd22;
+  }
 
 ul {
   padding-left: 0;
-  list-style: none; }
+  list-style: none;
+}
 
 mark {
   padding: 3px 5px;
@@ -403,6 +405,7 @@ img {
   list-style-type: circle;
 }
 
+
 .pro-spec ul.specIntro li {
   color: #FFFFFF;
   font-size: 15px;
@@ -412,6 +415,20 @@ img {
   margin-bottom: 10px;
   /* margin-left: 0;
   text-indent: -1.5em; */
+}
+.pro-spec ul.specIntro li:before {
+  font-family: 'Font Awesome 5 Pro';
+  content: "\f22d";
+  background-color: transparent;
+  border-radius: 0;
+  font-size: 12px;
+  /* color: #f19149; */
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: text-bottom;
 }
 /* @media screen and (max-width:768px) {
   .pro-spec ul.specIntro li {
@@ -424,6 +441,7 @@ img {
   font-size: 18px;
   font-weight: 500;
 }
+
 .pro-spec ul.specNote {
   align-items: center;
   display: flex;
