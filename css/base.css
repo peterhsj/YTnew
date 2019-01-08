@@ -619,6 +619,7 @@ span.step {
 }
 .bdl {
   border: 3px solid #FFFFFF;
+  border-radius: 6px;
 }
 .step-text {
   color: #0068b7;
