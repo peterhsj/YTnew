@@ -414,7 +414,9 @@ img {
   text-indent: -1.5em;
 }
 @media screen and (max-width:768px) {
-  text-indent: 0;
+  .pro-spec ul.specIntro li {
+    text-indent: -0.5em;
+  }
 }
 
 .pro-spec ul.specIntro li .specIntroTitle {
