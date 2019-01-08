@@ -148,8 +148,9 @@ ol.list-upperalpha {
   list-style-type: upper-alpha; }
 
 .dropdown-menu a {
-  color: #337ab7;
+  color: #000000;
   display: block;
+  font-size: 16px;
   padding: 5px; 
   text-decoration: none;
 }
