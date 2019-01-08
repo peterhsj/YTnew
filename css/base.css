@@ -352,13 +352,17 @@ img {
     padding-top: 30px !important;
   }
 
+  .space-lg.no-space-top.home-blog {
+    padding-top: 30px !important;
+  }
+
   .pro-spec h3 {
     font-size: 28px;
     margin-bottom: 25px;
   }
 
   .pro-spec h4{
-    font-size: 28px;
+    font-size: 28px !important;
   }
 }
 
