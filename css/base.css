@@ -413,6 +413,10 @@ img {
   margin-left: 27px;
   text-indent: -1.5em;
 }
+@media screen and (max-width:768px) {
+  text-indent: -2em;
+}
+
 .pro-spec ul.specIntro li .specIntroTitle {
   color: #FFFFFF;
   font-size: 18px;
