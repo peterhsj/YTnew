@@ -147,16 +147,33 @@ ol.list-loweralpha {
 ol.list-upperalpha {
   list-style-type: upper-alpha; }
 
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid #b9b9b9f2;
+}
+
 .dropdown-menu a {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
   color: #000000;
   display: block;
   font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
   padding: 5px; 
   text-decoration: none;
 }
+
+.dropdown-menu a i {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
 .dropdown-menu a:hover {
-  background-color: #eeeeee;
-  color: #337ab7;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  color: #000000;
   text-decoration: none;
 }
 
