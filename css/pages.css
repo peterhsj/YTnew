@@ -30,7 +30,7 @@
   font-family: 'Lato', sans-serif; }
 
 .tparrows {
-  opacity: 1 !important;
+  opacity: 0.5 !important;
   visibility: visible !important;
   background-color: #fff;
   width: 30px;
@@ -39,7 +39,16 @@
     font-family: "entypo";
     color: #d0d0d0;
     font-size: 24px;
-    line-height: 30px; }
+    line-height: 30px;
+    }
+
+    .tp-leftarrow {
+      border-radius: 0 50% 50% 0;
+    }
+
+    .tp-rightarrow {
+      border-radius: 50% 0 0 50%;
+    }
   .tparrows.tp-leftarrow:before {
     content: "\e622"; }
   .tparrows.tp-rightarrow:before {
