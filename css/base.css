@@ -54,6 +54,9 @@ h3 {
   font-size: 18px;
 }
 
+
+
+
 h4.title {
   color: #337ad5;
 }
@@ -485,11 +488,11 @@ img {
   }
 
   #introText h5 {
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
 
   #qaText h5 {
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
 
   .pro-spec p {
@@ -497,7 +500,7 @@ img {
   }
 
   .pro-spec p.note {
-    font-size: 15px !important;
+    font-size: 16px !important;
   }
 
   .specIntroTitle {
@@ -520,7 +523,7 @@ img {
 
 .pro-spec h5 {
   color: #0068b7;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -531,7 +534,7 @@ img {
 }
 
 .pro-spec ul.qa {
-  font-size: 15px;
+  font-size: 16px;
   list-style-position: inherit;
   list-style-type: disc;
   margin-left: 15px;
@@ -544,7 +547,7 @@ img {
 }
 
 .pro-spec ul.qa li .title {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -566,7 +569,7 @@ img {
 
 .pro-spec ul.specIntro li {
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 10px;
@@ -676,6 +679,11 @@ img {
   bottom: 30%;
 }
 
+.pic #hotspot5a {
+  right: 35%;
+  bottom: 3%;
+}
+
 .pic #hotspot6 {
   left: 13%;
   top: 2%;
@@ -742,10 +750,10 @@ h3.popover-title {
   border-radius: 30px !important;
   border: 2px solid #ff6600 !important;
   color: #ff6600 !important;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin: 10px auto 10px;
-  padding: 10px 30px 10px !important;
+  padding: 5px 30px 5px !important;
   text-decoration: none;
 }
 
@@ -812,3 +820,25 @@ span.step {
   padding-top: 10px;
   text-align: left;
 }
+
+@media screen and (max-width: 990px) {
+  .alert-warning {
+    border-radius: 6px;
+    border: 1px solid #8a6d3b;
+    padding: 10px 20px 0px 20px;
+  }
+}
+
+#newProduct a {
+  color:#4472C4;
+  text-decoration: none;
+  line-height: 1.8;
+}
+/* #newProduct a span{
+  border-bottom: 1px solid;
+} */
+/* @media (min-width: 768px) {
+  .modal-dialog {
+    width: 450px;
+  }
+} */

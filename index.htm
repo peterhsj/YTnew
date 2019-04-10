@@ -43,8 +43,8 @@
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
-<body>
-  <!-- onload="javascript:$('#newProduct').modal('show')" -->
+<body onload="javascript:$('#newProduct').modal('show')">
+
   <div id="fb-root"></div>
   <script>
     (function (d, s, id) {
@@ -229,16 +229,16 @@
             <!-- <div style="background: url(img/index_bg.png);background-size: 100% 100%;width:100%; height: 100%;"></div> -->
 
             <!-- LAYER NR. 3 -->
-            <div class="tp-caption News-Title" data-x="right" data-hoffset="80" data-y="center" data-voffset="20"
+            <div class="tp-caption News-Title" data-x="right" data-hoffset="80" data-y="center" data-voffset="0"
               data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="y:200px;o:0;s:1000;e:Power2.easeInOut;"
               data-transform_out="o:0" data-start="1500">
-              <img src="img/App/hand2-3.png" alt="" /> </div>
+              <img src="img/App/hand2-3a.png" alt="" /> </div>
 
             <div class="tp-caption News-Title" data-x="left" data-hoffset="80" data-y="top" data-voffset="250"
               data-width="350" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="x:-100px;o:0;s:1000;e:Power2.easeInOut;"
               data-transform_out="o:0" data-start="2000">
               <img src="img/App/slider-headline1-2.png" alt="" /> </div>
-            <div class="tp-caption News-Title" data-x="left" data-hoffset="80" data-y="top" data-voffset="290"
+            <div class="tp-caption News-Title" data-x="left" data-hoffset="80" data-y="top" data-voffset="300"
               data-width="370" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="x:-100px;o:0;s:1000;e:Power2.easeInOut;"
               data-transform_out="o:0" data-start="2500">
               <img src="img/App/slider-text-1.png" alt="" /> </div>
@@ -400,7 +400,7 @@
           </div>
           <div class="footer-mobile">
             <i class="icon-phone"></i> 台北服務電話 02-2395-5780</div>
-          
+
           <div class="footer-email">
             <i class="icon-mail"></i>
             <a href="mailto:younger.tone@gmail.com">younger.tone@gmail.com</a>
@@ -499,32 +499,35 @@
   <div id="newProduct" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
-        <div class="modal-header">
+        <div class="modal-header" style="border-bottom: 0;">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <h4 class="modal-title">新產品預告</h4>
+          <!-- <h4 class="modal-title">新產品預告</h4> -->
         </div>
         <div class="modal-body">
           <div class="media">
-            <div class="media-left media-top" style="width:45%">
+            <div class="media-left media-top" style="width:40%">
               <img src="img/mic.jpg" class="media-object" style="width:100%">
+              <img src="img/logo.jpg" style="width:70px;position: absolute;top:15px;left:15px;">
             </div>
             <div class="media-body">
-              <div style="overflow: hidden;margin-bottom: 10px">
-                <img src="img/logo.jpg" style="width:70px;float:left;margin-right: 10px">
-                <h3 class="media-heading">養聲堂研發世界首創
-                  <br>運用手機無線技術的</h3>
+              <div>
+                <h3 class="media-heading" style="font-size: 22px;font-weight: 600;margin-bottom: 0">
+                  <i class="far fa-arrow-alt-right"></i> 春季優惠 實施中</h3>
               </div>
-              <h3 style="margin:13px 0">
-                <a href="smartMic.htm">"二代智慧無線麥克風擴音系統"</a>
-              </h3>
-              <p class="clearfix">想了解最新產品規格與上市進度的內容，
-                <br>請上我們的點擊
-                <a href="smartMic.htm">了解更多</a> 或
+              <h3 style="color:#4472C4;margin:0 0 13px 25px;font-size: 20px;font-weight: 500;"><a
+                  href="https://www.facebook.com/permalink.php?story_fbid=1919349818175053&id=779961655447214" target="_blank"><span>保固延長為 18 個月</span></a></h3>
+              <div>
+                <h3 class="media-heading" style="font-size: 22px;font-weight: 600"><i
+                    class="far fa-arrow-alt-right"></i> 新上市</h3>
+              </div>
+              <h3 style="margin:5px 0 13px 25px;font-size: 20px;font-weight: 500">
+                <span>"二代智慧無線麥克風擴音系統"</span><br>
+                <a href="smartMic.htm"><span>產品介紹</span></a> |
                 <a href="https://www.facebook.com/%E9%A4%8A%E8%81%B2%E5%A0%82%E7%A7%91%E6%8A%80-779961655447214/"
-                  target="_blank">FB粉絲團</a>臉書參考
-              </p>
+                  target="_blank"><span>FB粉絲團</span></a>
+              </h3>
             </div>
           </div>
         </div>
