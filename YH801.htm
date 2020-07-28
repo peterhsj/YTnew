@@ -45,6 +45,32 @@
 
   <!-- MONDERNIZR -->
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Ads: 936755895 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-936755895"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'AW-936755895');
+  </script>
+  <!-- Event snippet for 二代智慧無線麥克風擴音系列 conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-936755895/Y9VjCIzg99IBELeF174D',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
 </head>
 
 <body>
@@ -85,7 +111,8 @@
                   <!-- <h5>型號A系列</h5> -->
                   <ul>
                     <li>
-                      <a href="smartMic.htm" class="text-nowrap">
+                      <a onclick="return gtag_report_conversion('http://youngtone.com.tw/smartMic.htm');"
+                        href="smartMic.htm" class="text-nowrap">
                         <i class="fas fa-caret-right"></i> 二代智慧無線麥克風擴音系列</a>
                     </li>
                     <li>

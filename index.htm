@@ -41,6 +41,32 @@
 
   <!-- MONDERNIZR -->
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Ads: 936755895 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-936755895"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'AW-936755895');
+  </script>
+  <!-- Event snippet for 二代智慧無線麥克風擴音系列 conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-936755895/Y9VjCIzg99IBELeF174D',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
 </head>
 
 <body onload="javascript:$('#newProduct').modal('show')">
@@ -96,7 +122,8 @@
                   <!-- <h5>型號A系列</h5> -->
                   <ul>
                     <li>
-                      <a href="smartMic.htm" class="text-nowrap">
+                      <a onclick="return gtag_report_conversion('http://youngtone.com.tw/smartMic.htm');"
+                        href="smartMic.htm" class="text-nowrap">
                         <i class="fas fa-caret-right"></i> 二代智慧無線麥克風擴音系列</a>
                     </li>
                     <li>
@@ -399,36 +426,38 @@
             <p>若您有任何無線麥克風的相關問題，歡迎您與養聲堂聯繫。能為您服務是我們的榮幸。</p>
           </div>
           <div class="footer-mobile">
-            <i class="icon-phone"></i> 台北服務電話 02-2395-5780</div>
-
+            <i class="icon-phone"></i> 02-2395-5780</div>
           <div class="footer-email">
             <i class="icon-mail"></i>
             <a href="mailto:younger.tone@gmail.com">younger.tone@gmail.com</a>
           </div>
           <!-- // .footer-email -->
 
-          <!-- div class="footer-mobile"> <i class="icon-phone"></i> Line ID：younger.tone </div -->
+          <div class="footer-mobile">Line ID：young.tone </div>
+          <div class="footer-mobile blink" style="font-size:12px">
+            LINE帳號因移機被更換，請 2020.7.6 前已加入好友，重新設定加入好友</div>
           <div class="footer-social">
-            <a class="line" href="http://line.naver.jp/ti/p/biy2tSi_f6" target="_blank">
-              <i class="icon-line_square"></i>
+            <a class="line" href="https://line.me/ti/p/pr3OEw9Jl9" target="_blank">
+              <i class="icon-line_square lineIcon"></i>
+              <img src="img/young_tong-QRcode.jpg" class="qrcode">
             </a>
             <a class="fb" href="https://www.facebook.com/%E9%A4%8A%E8%81%B2%E5%A0%82%E7%A7%91%E6%8A%80-779961655447214/"
               target="_blank">
               <i class="icon-facebook"></i>
             </a>
-            <a class="emaillink" href="mailto:younger.tone@gmail.com" target="_blank">
+            <a class="emaillink" href="mailto:young.tone@gmail.com" target="_blank">
               <i class="icon-mail"></i>
             </a>
-          </div>
+          </div>          
           <!-- // .footer-social -->
           <div class="footer-location" style="clear:both;padding-top: 15px;">
-            <p>更多公司與產品資訊，請上臉書、Google或 YouTube 輸入"養聲堂"</p>
-            <p style="margin-bottom: 15px;">
+            <p style="font-size:14px">更多公司與產品資訊，請上臉書、Google或 YouTube 輸入"養聲堂"</p>
+            <p style="margin-bottom: 0;">
               <a href="https://www.facebook.com/%E9%A4%8A%E8%81%B2%E5%A0%82%E7%A7%91%E6%8A%80-779961655447214/" target="_blank">
                 <img src="img/keyword_fb.jpg" alt="" class="img-responsive">
               </a>
             </p>
-            <p style="margin-bottom: 5px;">
+            <p style="margin-bottom: 0;">
               <a href="https://www.google.com.tw/search?q=%E9%A4%8A%E8%81%B2%E5%A0%82&oq=%E9%A4%8A%E8%81%B2%E5%A0%82&aqs=chrome..69i57j69i60j69i61j69i60.8248j0j4&sourceid=chrome&ie=UTF-8"
                 target="_blank">
                 <img src="img/keyword_google.jpg" alt="" class="img-responsive">
@@ -507,12 +536,29 @@
         </div>
         <div class="modal-body">
           <div class="media">
-            <div class="media-left media-top" style="width:40%">
+            <div class="media-left media-top col-md-5" style="padding-bottom:15px">
               <img src="img/mic.jpg" class="media-object" style="width:100%">
-              <img src="img/logo.jpg" style="width:70px;position: absolute;top:15px;left:15px;">
+              <img src="img/logo.jpg" style="width:60px;position: absolute;top:0;left:15px;">
             </div>
-            <div class="media-body">
+            <div class="col-md-7">
               <div>
+                <h3 class="media-heading" style="font-size: 22px;font-weight: 600;margin-bottom: 0">
+                  世界首創採用手機無線技術的</h3>
+              </div>
+              <h3 style="color:#86ae3c;margin:15px 0 13px 0;font-size: 20px;font-weight: 500;">
+              "二代智慧無線麥克風擴音系統"  
+              </h3>
+              <p style="margin:10px 0 13px 0;font-size: 15px;font-weight: 500">
+                <span style="color:#999999;"">最新產品介紹與規格，請點擊</span><br>
+                <a href="smartMic.htm"><span>產品介紹</span></a> 或
+                <a href=" https://www.youtube.com/channel/UCmDc3tKSyBSYxPnci35Jy-Q" target="_blank"><span>Youtube 頻道</span></a>
+              </p>
+              <p style="margin:5px 0 13px 0;font-size: 15px;font-weight: 500">
+                臉書
+                <a href="https://www.facebook.com/%E9%A4%8A%E8%81%B2%E5%A0%82%E7%A7%91%E6%8A%80-779961655447214/"
+                  target="_blank"><span>FB粉絲團</span></a>
+              </p>
+              <!-- <div>
                 <h3 class="media-heading" style="font-size: 22px;font-weight: 600;margin-bottom: 0">
                   <i class="far fa-arrow-alt-right"></i> 春季優惠 實施中</h3>
               </div>
@@ -527,7 +573,7 @@
                 <a href="smartMic.htm"><span>產品介紹</span></a> |
                 <a href="https://www.facebook.com/%E9%A4%8A%E8%81%B2%E5%A0%82%E7%A7%91%E6%8A%80-779961655447214/"
                   target="_blank"><span>FB粉絲團</span></a>
-              </h3>
+              </h3> -->
             </div>
           </div>
         </div>
